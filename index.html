@@ -88,6 +88,55 @@
   </style>
 </head>
 <body>
+  <!-- The rest of your website's HTML code goes here -->
+
+  <!-- Add a canvas element to draw the polygon on -->
+  <canvas id="polygon-canvas" width="500" height="500"></canvas>
+
+  <!-- Include the JavaScript code to draw and manipulate the polygon -->
+  <script>
+    // Get a reference to the canvas element
+    const canvas = document.getElementById('polygon-canvas');
+
+    // Get a reference to the canvas context
+    const ctx = canvas.getContext('2d');
+
+    // Define the points for the polygon
+    const points = [
+      {x: 50, y: 50},
+      {x: 100, y: 25},
+      {x: 150, y: 50},
+      {x: 100, y: 75}
+    ];
+
+    // Create a new Path2D object to hold the polygon shape
+    const polygon = new Path2D();
+
+    // Add the points to the path to create the polygon shape
+    polygon.moveTo(points[0].x, points[0].y);
+    for (let i = 1; i < points.length; i++) {
+      polygon.lineTo(points[i].x, points[i].y);
+    }
+    polygon.closePath();
+
+    // Draw the polygon on the canvas
+    ctx.fillStyle = 'red';
+    ctx.fill(polygon);
+
+    // Add event listeners to change the color of the polygon when the user interacts with it
+    canvas.addEventListener('mouseover', () => {
+      ctx.fillStyle = 'blue';
+      ctx.fill(polygon);
+    });
+    canvas.addEventListener('mouseout', () => {
+      ctx.fillStyle = 'red';
+      ctx.fill(polygon);
+    });
+    canvas.addEventListener('click', () => {
+      ctx.fillStyle = 'green';
+      ctx.fill(polygon);
+    });
+  </script>
   <header>
     <h1>Welcome to My Personal Website</h1>
   </header>
