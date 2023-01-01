@@ -1,108 +1,675 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920__1;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920__1 {
+		position: absolute;
+		width: 1920px;
+		height: 9133px;
+		background-color: rgba(35,41,70,1);
+		overflow: hidden;
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Path_9_h {
+		opacity: 0.42;
+		fill: url(#Path_9_h);
+	}
+	.Path_9_h {
+		overflow: visible;
+		position: absolute;
+		width: 1309.995px;
+		height: 975.818px;
+		left: -75.03px;
+		top: 713.182px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_1__4 {
+		position: absolute;
+		width: 1132.9px;
+		height: 1013.279px;
+		left: -466.9px;
+		top: 3709px;
+		overflow: visible;
+	}
+	#Mask_Group_1 {
+		opacity: 0.31;
+		mix-blend-mode: normal;
+		position: absolute;
+		width: 1132.9px;
+		height: 1013.278px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Component_1__2 {
+		position: absolute;
+		width: 427.695px;
+		height: 418.771px;
+		left: 1406.177px;
+		top: 556.229px;
+		overflow: visible;
+	}
+	#Mask_Group_1_l {
+		mix-blend-mode: luminosity;
+		position: absolute;
+		width: 427.695px;
+		height: 418.771px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Hey_I_am_Brian_Class_of_2024_a {
+		left: 257px;
+		top: 214px;
+		position: absolute;
+		overflow: visible;
+		width: 716px;
+		height: 408px;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,254,1);
+		text-transform: capitalize;
+	}
+	#Component_1__1 {
+		opacity: 0.26;
+		mix-blend-mode: normal;
+		position: absolute;
+		width: 971.9px;
+		height: 869.279px;
+		left: 109.1px;
+		top: 1907.792px;
+		overflow: visible;
+	}
+	#Mask_Group_1_o {
+		mix-blend-mode: luminosity;
+		position: absolute;
+		width: 971.9px;
+		height: 869.279px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#about_me {
+		left: 717px;
+		top: 1257px;
+		position: absolute;
+		overflow: visible;
+		width: 474px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(255,255,254,1);
+	}
+	#I_am_a_Junior_pursuing_an_unde {
+		left: 186px;
+		top: 1515px;
+		position: absolute;
+		overflow: visible;
+		width: 858px;
+		height: 950px;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(184,193,236,1);
+	}
+	#n_618591023476 {
+		position: absolute;
+		width: 610px;
+		height: 610px;
+		left: 1122px;
+		top: 1527px;
+		overflow: visible;
+	}
+	#projects {
+		left: 741px;
+		top: 2974px;
+		position: absolute;
+		overflow: visible;
+		width: 439px;
+		height: 102px;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(184,193,236,1);
+	}
+	#Rectangle_2 {
+		fill: rgba(238,187,195,1);
+		stroke: rgba(238,187,195,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 210px;
+		height: 302px;
+		left: 223px;
+		top: 3169px;
+	}
+	#Microalgae_in_aquatic_environm {
+		left: 465px;
+		top: 3227px;
+		position: absolute;
+		overflow: hidden;
+		width: 1233px;
+		height: 180px;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,254,1);
+	}
+	#Rectangle_3 {
+		fill: transparent;
+		stroke: rgba(238,187,195,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 1474px;
+		height: 302px;
+		left: 223px;
+		top: 3169px;
+	}
+	#Rectangle_4 {
+		fill: rgba(238,187,195,1);
+		stroke: rgba(238,187,195,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_4 {
+		position: absolute;
+		overflow: visible;
+		width: 172px;
+		height: 302px;
+		left: 223px;
+		top: 3169px;
+	}
+	#DATA_BIOLOGY {
+		transform: matrix(1,0,0,1,176.5,3252.5) rotate(-90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 298px;
+		height: 140px;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(35,41,70,1);
+	}
+	#Rectangle_5 {
+		fill: transparent;
+		stroke: rgba(238,187,195,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_5 {
+		position: absolute;
+		overflow: visible;
+		width: 1474px;
+		height: 286px;
+		left: 223px;
+		top: 3555px;
+	}
+	#Rectangle_6 {
+		fill: rgba(238,187,195,1);
+		stroke: rgba(238,187,195,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 210px;
+		height: 286px;
+		left: 223px;
+		top: 3555px;
+	}
+	#DATA_BIOLOGY_ {
+		transform: matrix(1,0,0,1,163,3639) rotate(-90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 331px;
+		height: 140px;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(35,41,70,1);
+	}
+	#The_expansion_of_Serratia_marc {
+		left: 465px;
+		top: 3591px;
+		position: absolute;
+		overflow: hidden;
+		width: 1216px;
+		height: 180px;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,254,1);
+	}
+	#View_here {
+		left: 978px;
+		top: 3407px;
+		position: absolute;
+		overflow: visible;
+		width: 163px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(238,187,195,1);
+		text-decoration: underline;
+	}
+	#View_here_ {
+		left: 960px;
+		top: 3771px;
+		position: absolute;
+		overflow: visible;
+		width: 163px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(238,187,195,1);
+	}
+	#Rectangle_7 {
+		fill: transparent;
+		stroke: rgba(184,193,236,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 1474px;
+		height: 228px;
+		left: 223px;
+		top: 3919px;
+	}
+	#Rectangle_8 {
+		fill: rgba(184,193,236,1);
+		stroke: rgba(238,187,195,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_8 {
+		position: absolute;
+		overflow: visible;
+		width: 210px;
+		height: 228px;
+		left: 223px;
+		top: 3919px;
+	}
+	#GAME_DESIGN {
+		transform: matrix(1,0,0,1,197,3963) rotate(-90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 263px;
+		height: 140px;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(35,41,70,1);
+	}
+	#The_Stead_ {
+		left: 465px;
+		top: 3955px;
+		position: absolute;
+		overflow: visible;
+		width: 1216px;
+		height: 180px;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,254,1);
+	}
+	#View_here_ba {
+		left: 960px;
+		top: 4091px;
+		position: absolute;
+		overflow: visible;
+		width: 163px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(184,193,236,1);
+		text-decoration: underline;
+	}
+	#Rectangle_9 {
+		fill: transparent;
+		stroke: rgba(184,193,236,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 1474px;
+		height: 227px;
+		left: 223px;
+		top: 4283px;
+	}
+	#Rectangle_10 {
+		fill: rgba(184,193,236,1);
+		stroke: rgba(238,187,195,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_10 {
+		position: absolute;
+		overflow: visible;
+		width: 210px;
+		height: 227px;
+		left: 223px;
+		top: 4283px;
+	}
+	#GAME_DESIGN_bb {
+		transform: matrix(1,0,0,1,211.5,4326.5) rotate(-90deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 228px;
+		height: 140px;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(35,41,70,1);
+	}
+	#Quest_of_Labors_ {
+		left: 465px;
+		top: 4319px;
+		position: absolute;
+		overflow: visible;
+		width: 1216px;
+		height: 180px;
+		text-align: left;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(255,255,254,1);
+	}
+	#View_here_bd {
+		left: 960px;
+		top: 4455px;
+		position: absolute;
+		overflow: visible;
+		width: 163px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(184,193,236,1);
+		text-decoration: underline;
+	}
+	#Rectangle_11 {
+		fill: rgba(238,187,195,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_11 {
+		position: absolute;
+		overflow: visible;
+		width: 680px;
+		height: 144px;
+		left: 1101px;
+		top: 2321px;
+	}
+	#Curriculum_Vitae_CV {
+		left: 1101px;
+		top: 2369px;
+		position: absolute;
+		overflow: visible;
+		width: 681px;
+		height: 96px;
+		line-height: 140px;
+		margin-top: -42.5px;
+		text-align: center;
+		font-family: Microsoft Tai Le;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(35,41,70,1);
+	}
+	#achievements {
+		left: 713px;
+		top: 4910px;
+		position: absolute;
+		overflow: visible;
+		width: 627px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(139,162,214,1);
+	}
+	#Mask_Group_3 {
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 289px;
+		top: 5190px;
+		overflow: visible;
+	}
+	#google-it-automation-certifica {
+		opacity: 0.6;
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 1443px;
+		top: 5214px;
+		overflow: visible;
+	}
+	#google-ux-design-certificate2 {
+		opacity: 0.6;
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 1043px;
+		top: 5214px;
+		overflow: visible;
+	}
+	#google-it-support-certificate {
+		opacity: 0.6;
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 666px;
+		top: 5214px;
+		overflow: visible;
+	}
+	#data-science-professional-cert {
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 866px;
+		top: 5902px;
+		overflow: visible;
+	}
+	#cybersecurity-it-fundamentals- {
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 506px;
+		top: 5534px;
+		overflow: visible;
+	}
+	#data-science-foundations1 {
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 1230px;
+		top: 5534px;
+		overflow: visible;
+	}
+	#applied-data-science-specializ {
+		position: absolute;
+		width: 320px;
+		height: 320px;
+		left: 866px;
+		top: 5534px;
+		overflow: visible;
+	}
+	#working {
+		left: 749px;
+		top: 6545px;
+		position: absolute;
+		overflow: visible;
+		width: 424px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 80px;
+		color: rgba(184,193,236,1);
+	}
+	#Component_1__3 {
+		opacity: 0.27;
+		mix-blend-mode: normal;
+		position: absolute;
+		width: 879.808px;
+		height: 786.331px;
+		left: 948.146px;
+		top: 2804.695px;
+		overflow: visible;
+	}
+	#Mask_Group_1_br {
+		mix-blend-mode: luminosity;
+		position: absolute;
+		width: 879.808px;
+		height: 786.331px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_10_bt {
+		opacity: 0.5;
+		fill: url(#Path_10_bt);
+	}
+	.Path_10_bt {
+		overflow: visible;
+		position: absolute;
+		width: 1179px;
+		height: 601.266px;
+		left: 741px;
+		top: 2562.667px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_1__5 {
+		opacity: 0.72;
+		position: absolute;
+		width: 514.875px;
+		height: 460.51px;
+		left: 977.527px;
+		top: 122.768px;
+		overflow: visible;
+	}
+	#Mask_Group_1_bv {
+		mix-blend-mode: luminosity;
+		position: absolute;
+		width: 514.875px;
+		height: 460.51px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
 
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
-}
 
-header {
-  background-color: #0070c9;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-header nav {
-  display: flex;
-}
-
-header nav a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 10px 20px;
-}
-
-header nav a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 40px;
-}
-
-h1, h2 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.5;
-  font-size: 16px;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-ul li {
-  width: calc(50% - 10px);
-  margin-bottom: 20px;
-  font-size: 14px;
-}
-
-footer {
-  background-color: #0070c9;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-}
-
-form label,
-form input,
-form textarea {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-}
-
-form label {
-  font-weight: 600;
-}
-
-form input,
-form textarea {
-  border: 1px solid #cccccc;
-  padding: 10px;
-  font-size: 16px;
-}
-
-form textarea {
-  height: 200px;
-}
-
-form input[type="submit"] {
-  background-color: #0070c9;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
+Warnings:
+1. Rotation support: Rotation not fully supported on all elements. Confirm valid rotation, remove rotation, commit the rotation, adjust the position manually or use the export as image feature" on "DATA_BIOLOGY"
+2. Rotation support: Rotation not fully supported on all elements. Confirm valid rotation, remove rotation, commit the rotation, adjust the position manually or use the export as image feature" on "DATA_BIOLOGY_"
+3. Rotation support: Rotation not fully supported on all elements. Confirm valid rotation, remove rotation, commit the rotation, adjust the position manually or use the export as image feature" on "GAME_DESIGN"
+4. Rotation support: Rotation not fully supported on all elements. Confirm valid rotation, remove rotation, commit the rotation, adjust the position manually or use the export as image feature" on "GAME_DESIGN_bb"
