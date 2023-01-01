@@ -6,6 +6,17 @@ body {
   padding: 0;
 }
 
+.quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-style: italic;
+  font-size: 14px;
+  color: #333333;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
 header {
   background-color: #0070c9;
   color: #ffffff;
