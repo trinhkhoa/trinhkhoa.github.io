@@ -6,18 +6,60 @@
   </head>
   <body>
     <header>
-      <h1>My Personal Website</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
     <main>
-      <p>Welcome to my personal website!</p>
+      <section id="home">
+        <h1>Welcome to My Personal Website!</h1>
+        <p>Hi, my name is <mark>[Name]</mark> and I am a <mark>[Profession]</mark>. This is my personal website where you can learn more about me and my work.</p>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a <mark>[Age]</mark> year old <mark>[Gender]</mark> from <mark>[City]</mark>, <mark>[Country]</mark>. I have a degree in <mark>[Degree]</mark> from <mark>[University]</mark> and have been working as a <mark>[Profession]</mark> for <mark>[Number]</mark> years.</p>
+        <p>In my free time, I enjoy <mark>[Hobbies]</mark>.</p>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          <li>Skill 3</li>
+          <li>Skill 4</li>
+          <li>Skill 5</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+          <li>Project 4</li>
+          <li>Project 5</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>You can contact me by email at <a href="mailto:email@example.com">email@example.com</a> or by filling out the form below:</p>
+        <form>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Send">
+        </form>
+      </section>
     </main>
     <footer>
       <p>Copyright 2021</p>
     </footer>
-    <script>
-    document.body.style.cursor = 'url(target.png), auto';
-    </script>
-    <canvas id="game-canvas"></canvas>
-    <script src="game.js"></script>
   </body>
 </html>
