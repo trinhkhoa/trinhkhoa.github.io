@@ -4,6 +4,16 @@
     <title>My Personal Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <script>
+  window.addEventListener('scroll', function() {
+    var quote = document.querySelector('.quote');
+    var rect = quote.getBoundingClientRect();
+    if (rect.top < 0) {
+      quote.style.opacity = 1;
+      quote.style.left = rect.left - 10 + 'px';
+    }
+  });
+</script>
   <body>
     <header>
       <h1>My Personal Website</h1>
