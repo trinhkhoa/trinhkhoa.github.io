@@ -43,5 +43,17 @@
     <footer>
       <p>Copyright 2021</p>
     </footer>
-  </body>
+    <script>
+  var container = document.getElementById('polygon-container');
+  var polygon = document.querySelector('.polygon');
+  var xDeg = 0;
+  var yDeg = 0;
+
+  container.addEventListener('mousemove', function(event) {
+    xDeg = (event.clientX / container.clientWidth * 180 - 90) * -1;
+    yDeg = (event.clientY / container.clientHeight * 180 - 90) * -1;
+    polygon.style.transform = 'rotateX(' + yDeg + 'deg) rotateY(' + xDeg + 'deg)';
+  });
+</script>
+</body>
 </html>
