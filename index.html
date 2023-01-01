@@ -7,53 +7,14 @@
   <body>
     <header>
       <h1>My Personal Website</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
     </header>
     <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in dui efficitur, aliquam magna at, auctor arcu. Nulla facilisi.</p>
-      </section>
-      <p class="quote">"The only way to do great work is to love what you do." - Steve Jobs</p>
-      <section id="portfolio">
-        <div id="polygon-container">
-          <div class="polygon">
-            <div class="face"></div>
-            <div class="face"></div>
-            <div class="face"></div>
-            <div class="face"></div>
-            <div class="face"></div>
-            <div class="face"></div>
-          </div>
-        </div>
-        <h2>My Portfolio</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in dui efficitur, aliquam magna at, auctor arcu. Nulla facilisi.</p>
-      </section>
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in dui efficitur, aliquam magna at, auctor arcu. Nulla facilisi.</p>
-      </section>
+      <p>Welcome to my personal website!</p>
     </main>
     <footer>
       <p>Copyright 2021</p>
     </footer>
-    <script>
-  var container = document.getElementById('polygon-container');
-  var polygon = document.querySelector('.polygon');
-  var xDeg = 0;
-  var yDeg = 0;
-
-  container.addEventListener('mousemove', function(event) {
-    xDeg = (event.clientX / container.clientWidth * 180 - 90) * -1;
-    yDeg = (event.clientY / container.clientHeight * 180 - 90) * -1;
-    polygon.style.transform = 'rotateX(' + yDeg + 'deg) rotateY(' + xDeg + 'deg)';
-  });
-</script>
-</body>
+    <canvas id="game-canvas"></canvas>
+    <script src="game.js"></script>
+  </body>
 </html>
